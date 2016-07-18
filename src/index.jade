@@ -1,0 +1,128 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Экзамен по курсу
+    link(rel='stylesheet', type='text/css', href='css/main.css')
+  body
+    .container
+      h1 Таблица 1 – общая статистика
+      table(border='2')
+        tbody
+          tr
+            td.bold Общая сумма заказов
+            td#total-sum
+          tr
+            td.bold Общее число заказов
+            td#total-orders
+          tr
+            td.bold Общая сумма рекомендованных продаж
+            td#total-recommended
+          tr
+            td.bold Общая сумма не рекомендованных продаж
+            td#total-typical
+          tr
+            td.bold Общее число покупателей
+            td#total-customers
+          tr
+            td.bold Количество заказов, в которых нет рекомендованных продаж
+            td#total-without-recommended
+          tr
+            td.bold Количество заказов, в которых только рекомендованные продажи
+            td#total-without-typical
+      h1 Таблица 2 – статистика с 26 по 28 (включительно) июня 2015 год
+      table(border='2')
+        tbody
+          tr
+            td.bold Сумма продаж за период
+            td#period-sum
+          tr
+            td.bold Количество продаж за период
+            td#period-total
+          tr
+            td.bold Покупателей за период
+            td#period-customers
+          tr
+            td.bold Сумма рекомендованных продаж за период
+            td#period-recommended
+      h1 Таблица 3 – самые дорогие заказы
+      table#top-orders(border='2')
+        thead
+          tr
+            th Дата
+            th № заказа
+            th ID покупателя
+            th Общая сумма
+            th Обычные продажи
+            th Рекомендованные продажи
+        tbody
+          tr
+            td 23.08.2015
+            td 5071011
+            td 33964187
+            td 1790 руб.
+            td 0 руб.
+            td 1790 руб.
+          tr
+            td 23.08.2015
+            td 5071011
+            td 33964187
+            td 1790 руб.
+            td 0 руб.
+            td 1790 руб.
+          tr
+            td 23.08.2015
+            td 5071011
+            td 33964187
+            td 1790 руб.
+            td 0 руб.
+            td 1790 руб.
+      h1 Таблица 4 – постоянные покупатели
+      table#count-orders(border='2')
+        thead
+          tr
+            th Покупатель
+            th Заказов
+        tbody
+          tr
+            td 5071011
+            td 2
+          tr
+            td 5071012
+            td 4
+          tr
+            td 507103
+            td 3
+      h1 Блок 5 –  поиск заказов по покупателю
+      p
+        input#serch-field(type='text', placeholder='ID покупателя')
+        button#serch-button Показать заказы
+      table#serch-by-users(border='2')
+        thead
+          tr
+            th Дата
+            th № заказа
+            th Общая сумма
+            th Обычные продажи
+            th Рекомендованные продажи
+        tbody
+          tr
+            td 23.08.2015
+            td 5071011
+            td 1790 руб.
+            td 0 руб.
+            td 1790 руб.
+          tr
+            td 23.08.2015
+            td 5071011
+            td 1790 руб.
+            td 0 руб.
+            td 1790 руб.
+          tr
+            td 23.08.2015
+            td 5071011
+            td 1790 руб.
+            td 0 руб.
+            td 1790 руб.
+
+script(type='text/javascript', src='./js/main.js')
