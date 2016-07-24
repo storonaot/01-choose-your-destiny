@@ -1,27 +1,40 @@
+Для запуска проекта
+===================
 
-Для запуска проекта:
+1. Клонируем репо
 
-  1. Клонируем репо
+2. Node.js
+  * Если node.js не установлен:
+    - Устанавливаем node.js
+    - Устанавливаем nvm:
 
-  - Если не установлен node.js:
-  2. Устанавливаем node.js
-     Устанавливаем nvm:
-      + $ npm install -g nvm
+      `$ npm install -g nvm`
 
-  - Если node.js установлен:
-  2. Обновляем node.js через:
-      + $ nvm install stable
-      + $ nvm use stable
-     Обновляем npm:
-      + $ npm install npm -g
+  * Если node.js установлен:
+    - Обновляем node.js через:
 
-  3. В корневой директории проекта устанавливаем зависимости
-      + $ npm install
+      `$ nvm install stable`
 
-  4. Проверяем версию gulp
-      + $ gulp --v
-      Если меньше 4.0.0, запускаем:
-        + $ npm install gulpjs/gulp.git#4.0 --save-dev
+      `$ nvm use stable`
 
-  5. Запускаем проект
-      + $ gulp dev
+    - Обновляем npm:
+
+      `$ npm install npm -g`
+
+3. Устанавливаем gulp глобально
+
+  `$ npm install --global gulp-cli`
+
+4. Устанавливаем gulp4 локально из корневой директории проекта
+
+  `$ npm init`
+
+  `$ npm install gulpjs/gulp.git#4.0 --save`
+
+5. Устанавливаем зависимости
+
+  `$ npm install`
+
+6. Запускаем проект
+
+  `$ gulp dev`

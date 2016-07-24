@@ -13,52 +13,23 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/7rulnik-school/01-choose-your-destiny#readme",
+  "bugs": {
+    "url": "https://github.com/7rulnik-school/01-choose-your-destiny/issues"
+  },
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "del": "^2.2.1",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-babel": "^6.1.2",
-    "gulp-cached": "^1.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-debug": "^2.1.2",
-    "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.1",
-    "gulp-jade": "^1.1.0",
     "gulp-newer": "^1.2.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-remember": "^0.3.1",
+    "gulp-pug": "^3.0.3",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.4",
-    "last-run": "^1.1.1",
-    "newer": "^0.1.5"
-  },
-  "bugs": {
-    "url": "https://github.com/7rulnik-school/01-choose-your-destiny/issues"
-  },
-  "dependencies": {
-    "browser-sync": "^2.13.0",
-    "cssnano": "^3.7.3",
-    "del": "^2.2.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-cached": "^1.1.0",
-    "gulp-imagemin": "^3.0.1",
-    "gulp-debug": "^2.1.2",
-    "gulp-if": "^2.0.1",
-    "gulp-jade": "^1.1.0",
-    "gulp-newer": "^1.2.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^1.5.4",
-    "gulp-remember": "^0.3.1",
-    "last-run": "^1.1.1",
-    "newer": "^0.1.5",
-    "rigger": "^0.5.10"
+    "pug": "^2.0.0-beta4"
   }
 }
